@@ -1,0 +1,62 @@
+<section class="section-body" style="background-color: #E7EDFF;">
+        <div class="container">
+            <div class="centered-content">
+                <span class="body-title" >
+                    Welcome to <strong> Exchain! </strong>
+                </span>
+          
+                <p class="body-text">
+                    Exchain makes your transactions more efficient
+                </p>
+
+                    <div class="exchange-container-buy" >
+                    <mat-form-field class="amount-field-pay" floatLabel="always" hintLabel="Max 10 characters">
+                        <input matInput #input maxlength="10" placeholder="0.00">
+                        <span matTextPrefix>$&nbsp;</span>
+                        <mat-hint align="end">{{input.value.length}}/10</mat-hint>
+                    </mat-form-field>          
+                    
+                    <mat-form-field class="coin-list-buy">
+                        <mat-select formControlName="coin-selection">
+                            <mat-option value="AAA">AAA</mat-option>
+                            <mat-option value="BBB">BBB</mat-option>
+                            <mat-option value="CCC">CCC</mat-option>
+                        </mat-select>
+                        <mat-hint align="end">Select a type of coins</mat-hint>
+                    </mat-form-field>
+                    
+                </div>
+
+                    <div class="exchange-container-sell">
+                        <mat-form-field class="amount-field-receive" floatLabel="always" hintLabel="Max 10 characters">
+                            <input matInput #input maxlength="10" placeholder="0.00">
+                            <span matTextPrefix>$&nbsp;</span>
+                            <mat-hint align="end">{{input.value.length}}/10</mat-hint>
+                        </mat-form-field>
+
+                        <mat-form-field class="coin-list-sell">
+                            <mat-select>
+                                <mat-option value="AAA">AAA</mat-option>
+                                <mat-option value="BBB">BBB</mat-option>
+                                <mat-option value="CCC">CCC</mat-option>
+                            </mat-select>
+                            <mat-hint align="end">Select a type of coins</mat-hint>
+                        </mat-form-field>
+                    </div>
+
+
+
+
+
+
+
+                <div>
+
+                    <button mat-raised-button class="ConnectToWalletBtn" onclick="connectToMetaMask()">
+                        <span>Connect to Wallet</span>
+                    </button>
+                    <script src="./auction.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>   

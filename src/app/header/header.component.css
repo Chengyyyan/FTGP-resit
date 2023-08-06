@@ -1,0 +1,36 @@
+.header{
+    margin: 0;
+  
+  }
+  
+  .header-toolbar {
+    background-color: #252086; 
+    color:rgb(234, 243, 246)
+  }
+  
+  .Home-button {
+    background-color: #dbf0fc; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .Trade-button {
+    background-color: #dbf0fc; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .AboutUs-button {
+    background-color: #dbf0fc; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .example-spacer {
+      flex: 1 1 auto;
+  
+    }
+  

@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .centered-content {
+    text-align: center;
+  }
+
+  .body-title{
+    margin-bottom: 30px;
+    color:#2F3563;
+    font: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+
+  .PoolsA-button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgba(254, 254, 254, 0.89);
+    background-color: #30D8D2;
+    border-radius: 10px;
+    border-color:#30D8D2;
+    border-bottom: #30D8D2;
+    border-right: #30d8d2;
+    width: 500px; 
+    height: 60px; 
+  }
+
+  .PoolsB-button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgba(254, 254, 254, 0.89);
+    background-color: #7093F4;
+    border-radius: 10px;
+    border-color:#7093F4;
+    border-bottom: #7093F4;
+    border-right: #7093F4;
+    width: 500px; 
+    height: 60px; 
+  }
+
+  .PoolsC-button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgba(254, 254, 254, 0.89);
+    background-color: #B67CEF;
+    border-radius: 10px;
+    border-color:#B67CEF;
+    border-bottom: #B67CEF;
+    border-right: #B67CEF;
+    width: 500px; 
+    height: 60px; 
+  }
+
+  .PoolsA-liquidity-remove-button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgba(254, 254, 254, 0.89);
+    background-color: #30D8D2;
+    border-radius: 10px;
+    border-color:#30D8D2;
+    border-bottom: #30D8D2;
+    border-right: #30d8d2;
+    width: 500px; 
+    height: 60px; 
+  }
+  
+  .PoolsB-liquidity-remove-button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgba(254, 254, 254, 0.89);
+    background-color:#7093F4;
+    border-radius: 10px;
+    border-color:#7093F4;
+    border-bottom: #7093F4;
+    border-right: #7093F4;
+    width: 500px; 
+    height: 60px; 
+  }
+
+  .PoolsC-liquidity-remove-button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgba(254, 254, 254, 0.89);
+    background-color: #B67CEF;
+    border-radius: 10px;
+    border-color:#B67CEF;
+    border-bottom: #B67CEF;
+    border-right: #B67CEF;
+    width: 500px; 
+    height: 60px; 
+  }

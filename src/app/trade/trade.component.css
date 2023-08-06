@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .centered-content {
+    text-align: center;
+  }
+
+.exchange-container-buy mat-form-field + mat-form-field {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-style:outset;
+    border-color: rgba(63, 50, 185, 0.89);
+    }
+
+  .amount-field-pay {
+    margin-top: 20px;
+    margin-right: 20px;
+    }
+
+.exchange-container-sell mat-form-field + mat-form-field {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-style: outset;
+    border-color: rgba(63, 50, 185, 0.89);
+    }
+
+.amount-field-receive {
+    margin-top: 20px;
+    margin-right: 20px;
+    }
+
+  .body-title{
+    margin-right: 10px;
+    color:rgba(63, 50, 185, 0.89);
+    font-size: 20px;
+    font:bold;
+  }
+
+  .body-text{
+    margin-right: 10px;
+    color:rgb(35, 94, 112);
+  }
+
+  .ConnectToWalletBtn {
+    color: #ffffff; 
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    background-color:#6D63D8 ;
+
+  }

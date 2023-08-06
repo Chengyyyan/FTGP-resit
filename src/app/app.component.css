@@ -1,0 +1,105 @@
+.header{
+  margin: 0;
+
+}
+
+.header-toolbar {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  border: 0;
+  background-color: #252086; 
+  color:rgb(234, 243, 246)
+}
+
+.Home-button {
+  background-color: #dbf0fc; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.Trade-button {
+  background-color: #dbf0fc; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.AboutUs-button {
+  background-color: #dbf0fc; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.Home-content {
+    background-color: #E7EDFF; 
+    color:#6D63D8;
+    font-size: 20px;
+  }
+
+.content {
+    margin-top: 75px;
+}
+
+.table {
+    width: 100%;
+  }
+
+  .exchange-container mat-form-field + mat-form-field {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 30px;
+  }
+
+  .amount-field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    }
+
+    .amount-field2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      padding: 30px;
+      }
+
+
+
+
+  .body-title{
+    margin-right: 10px;
+    margin-left: 200px;
+    color:rgba(63, 50, 185, 0.89);
+  }
+
+  .body-text{
+    margin-right: 10px;
+    margin-left: 150px;
+    color:rgb(35, 94, 112);
+  }
+
+  .ConnectToWalletBtn {
+    color: #fafcfd; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 250px;
+  }
+
+  .footer-list-title{
+    margin-left: 40px
+  }
